@@ -1,0 +1,40 @@
+<?php
+function resume_schema(){
+    $schema['resume_access']= array(
+        'description' => 'An example form table',
+        'fields' => array(
+      'condidateName' => array(
+        'type' => 'text',
+        'length' => 50,
+        'not null' => TRUE,
+    	),
+    	'email' => array(
+    	'type' => 'text',
+    	'length' => 80,
+    	'not null' => TRUE,
+    ),
+    'mobile_no' => array(
+      'type' => 'varchar',
+      'length' => 15,
+    ),
+    'dob' => array(
+      'type' => 'varchar',
+      'length' => 20,
+      'not null' => TRUE,
+    ),
+    'gender' => array(
+      'type' => 'varchar',
+      'length' => 20,
+    ),
+    'confiramation' => array(
+      'type' => 'text',
+      'length' => 20,
+    ),
+    ),
+    );
+    return $schema;
+
+}
+
+
+

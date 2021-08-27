@@ -1,0 +1,13 @@
+name: First Module
+type: module
+description: 'This is my first custom module.'
+package: Custom Modules
+# version: 1.0
+#configure: entity.action.collection
+
+# Information added by Drupal.org packaging script on 2021-08-03
+version: '9.2.3'
+project: 'drupal'
+core: 8.x
+datestamp: 1627997989
+core_version_requirement: ^8 || ^9
